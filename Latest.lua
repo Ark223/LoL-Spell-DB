@@ -94,12 +94,6 @@ return {
             ['castRadius'] = 710,
             ['castRange'] = 300
         },
-        ['AhriFoxFireMissileTwo'] = {
-            ['castRadius'] = 710,
-            ['castRange'] = 25000,
-            ['castTime'] = 0.25,
-            ['missileSpeed'] = 1400
-        },
         ['AhriOrbMissile'] = {
             ['acceleration'] = -3200,
             ['castRadius'] = 275,
@@ -138,6 +132,14 @@ return {
             ['lineWidth'] = 100,
             ['missileSpeed'] = 1100
         },
+        ['AhriPassiveMissile'] = {
+            ['acceleration'] = -800,
+            ['castRadius'] = 710,
+            ['castRange'] = 10000,
+            ['initialSpeed'] = 1800,
+            ['maxSpeed'] = 2000,
+            ['minSpeed'] = 1200
+        },
         ['AhriSeduce'] = {
             ['castRadius'] = 210,
             ['castRange'] = 10000,
@@ -163,6 +165,54 @@ return {
         ['AhriTumbleMissile'] = {
             ['castRadius'] = 710,
             ['castRange'] = 800,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileBack1'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileBack2'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileFront1'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileFront2'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileLeft1'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileLeft2'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileRight1'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400
+        },
+        ['AhriWDamageMissileRight2'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000,
+            ['castTime'] = 0.25,
             ['missileSpeed'] = 1400
         }
     },
@@ -4187,6 +4237,7 @@ return {
         ['SowTheWind'] = {
             ['castRadius'] = 210,
             ['castRange'] = 650,
+            ['castRangeDisplayOverride'] = 600,
             ['castTime'] = 0.24500000476837,
             ['lineWidth'] = 60,
             ['missileSpeed'] = 1600,
