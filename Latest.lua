@@ -133,11 +133,11 @@ return {
             ['missileSpeed'] = 1100
         },
         ['AhriPassiveMissile'] = {
-            ['acceleration'] = -800,
+            ['acceleration'] = 800,
             ['castRadius'] = 710,
-            ['castRange'] = 10000,
+            ['castRange'] = 25000,
             ['initialSpeed'] = 1800,
-            ['maxSpeed'] = 2000,
+            ['maxSpeed'] = 8000,
             ['minSpeed'] = 1200
         },
         ['AhriSeduce'] = {
@@ -1029,10 +1029,13 @@ return {
             ['missileSpeed'] = 1500
         },
         ['EnchantedCrystalArrow'] = {
+            ['acceleration'] = 200,
             ['castRadius'] = 100,
             ['castRange'] = 25000,
+            ['initialSpeed'] = 1500,
             ['lineWidth'] = 130,
-            ['missileSpeed'] = 1600,
+            ['maxSpeed'] = 2100,
+            ['minSpeed'] = 1500,
             ['missileWidth'] = 130
         },
         ['ItemHurricaneAsheAttack'] = {
@@ -9074,6 +9077,70 @@ return {
             ['castRangeDisplayOverride'] = 550
         }
     },
+    ['Renata'] = {
+        ['RenataBasicAttack'] = {
+            ['missileSpeed'] = 1800
+        },
+        ['RenataBasicAttack2'] = {
+            ['castRange'] = 800,
+            ['missileSpeed'] = 1800
+        },
+        ['RenataE'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 800,
+            ['castTime'] = 0.25,
+            ['lineWidth'] = 110,
+            ['missileSpeed'] = 1450,
+            ['missileWidth'] = 110
+        },
+        ['RenataPassiveBasicAttack'] = {
+            ['missileSpeed'] = 1800
+        },
+        ['RenataQ'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 900,
+            ['castTime'] = 0.25,
+            ['lineWidth'] = 70,
+            ['missileSpeed'] = 1450,
+            ['missileWidth'] = 70
+        },
+        ['RenataQRecast'] = {
+            ['castRange'] = 25000,
+            ['lineWidth'] = 85
+        },
+        ['RenataR'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 2000,
+            ['castTime'] = 0.75,
+            ['lineWidth'] = 325,
+            ['missileSpeed'] = 1200
+        },
+        ['RenataRMissile'] = {
+            ['acceleration'] = 50,
+            ['castRadius'] = 100,
+            ['castRange'] = 2000,
+            ['initialSpeed'] = 650,
+            ['lineWidth'] = 250,
+            ['maxSpeed'] = 1000,
+            ['minSpeed'] = 650,
+            ['missileWidth'] = 250
+        },
+        ['RenataRMissileSides'] = {
+            ['acceleration'] = 50,
+            ['castRadius'] = 100,
+            ['castRange'] = 2000,
+            ['initialSpeed'] = 650,
+            ['lineWidth'] = 250,
+            ['maxSpeed'] = 1000,
+            ['minSpeed'] = 650,
+            ['missileWidth'] = 250
+        },
+        ['RenataW'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 800,
+            ['castTime'] = 0.25
+        }
+    },
     ['Renekton'] = {
         ['RenektonBasicAttack'] = {
             ['castRadius'] = 100
@@ -13344,6 +13411,7 @@ return {
             ['castRadius'] = 250,
             ['castRange'] = 25000,
             ['castRangeDisplayOverride'] = 1025,
+            ['castTime'] = 0.5,
             ['missileSpeed'] = 3000
         },
         ['XerathArcanopulseChargeUp'] = {
