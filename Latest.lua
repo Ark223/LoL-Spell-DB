@@ -516,10 +516,6 @@ return {
             ['castRange'] = 1,
             ['missileSpeed'] = 828.5
         },
-        ['FerociousHowl_URF'] = {
-            ['castRange'] = 1,
-            ['missileSpeed'] = 828.5
-        },
         ['Headbutt'] = {
             ['castRadius'] = 100,
             ['castRange'] = 650
@@ -3616,12 +3612,6 @@ return {
             ['castRangeDisplayOverride'] = 350,
             ['missileSpeed'] = 1450
         },
-        ['HecarimRapidSlash_URF'] = {
-            ['castRadius'] = 800,
-            ['castRange'] = 375,
-            ['castRangeDisplayOverride'] = 350,
-            ['missileSpeed'] = 1450
-        },
         ['HecarimUlt'] = {
             ['castRadius'] = 300,
             ['castRange'] = 50000,
@@ -4166,111 +4156,6 @@ return {
             ['missileSpeed'] = 667.6669921875,
             ['missileWidth'] = 120
         },
-        ['HowlingGaleSpell10'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 966.6669921875,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell11'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 1000,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell12'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 1033.3330078125,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell13'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 1066.6669921875,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell14'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 1100,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell15'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 1133.3330078125,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell16'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 1166.6669921875,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell2'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 700,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell3'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 733.3330078125,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell4'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 766.6669921875,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell5'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 800,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell6'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 833.3330078125,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell7'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 866.6669921875,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell8'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 900,
-            ['missileWidth'] = 120
-        },
-        ['HowlingGaleSpell9'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 25000,
-            ['lineWidth'] = 120,
-            ['missileSpeed'] = 933.3330078125,
-            ['missileWidth'] = 120
-        },
         ['HowlingGale_URF'] = {
             ['castRadius'] = 100,
             ['castRange'] = 25000,
@@ -4301,7 +4186,7 @@ return {
         },
         ['SowTheWind'] = {
             ['castRadius'] = 210,
-            ['castRange'] = 550,
+            ['castRange'] = 650,
             ['castTime'] = 0.24500000476837,
             ['lineWidth'] = 60,
             ['missileSpeed'] = 1600,
@@ -5482,12 +5367,6 @@ return {
             ['missileSpeed'] = 1400
         },
         ['RiftWalk'] = {
-            ['castRadius'] = 270,
-            ['castRange'] = 25000,
-            ['castRangeDisplayOverride'] = 500,
-            ['castTime'] = 0.25
-        },
-        ['RiftWalk_URF'] = {
             ['castRadius'] = 270,
             ['castRange'] = 25000,
             ['castRangeDisplayOverride'] = 500,
@@ -10732,11 +10611,6 @@ return {
         ['SonaWPassiveAttack'] = {
             ['castRange'] = 550,
             ['missileSpeed'] = 1500
-        },
-        ['SonaW_URF'] = {
-            ['castRadius'] = 1000,
-            ['castRange'] = 1000,
-            ['missileSpeed'] = 1500
         }
     },
     ['Soraka'] = {
@@ -11192,19 +11066,10 @@ return {
     },
     ['TahmKench'] = {
         ['TahmKenchE'] = {
-            ['castRadius'] = 375,
-            ['castRange'] = 1,
+            ['castRange'] = 2400,
             ['castTime'] = 0.25
         },
         ['TahmKenchQ'] = {
-            ['castRange'] = 900,
-            ['castRangeDisplayOverride'] = 900,
-            ['castTime'] = 0.25,
-            ['lineWidth'] = 70,
-            ['missileSpeed'] = 2800,
-            ['missileWidth'] = 70
-        },
-        ['TahmKenchQ_URF'] = {
             ['castRange'] = 900,
             ['castRangeDisplayOverride'] = 900,
             ['castTime'] = 0.25,
@@ -14577,6 +14442,108 @@ return {
             ['missileWidth'] = 60
         }
     },
+    ['Zeri'] = {
+        ['ZeriBasicAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 625,
+            ['missileSpeed'] = 8000
+        },
+        ['ZeriE'] = {
+            ['castRadius'] = 3000,
+            ['castRange'] = 25000,
+            ['lineWidth'] = 50
+        },
+        ['ZeriPShieldMissile'] = {
+            ['castRange'] = 80000
+        },
+        ['ZeriQ'] = {
+            ['castRange'] = 25000,
+            ['castRangeDisplayOverride'] = 800,
+            ['lineWidth'] = 15
+        },
+        ['ZeriQBasicAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 625,
+            ['missileSpeed'] = 8000
+        },
+        ['ZeriQBasicAttackEmpowered'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 625,
+            ['missileSpeed'] = 8000
+        },
+        ['ZeriQMis'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 825,
+            ['lineWidth'] = 60,
+            ['missileSpeed'] = 2600,
+            ['missileWidth'] = 40
+        },
+        ['ZeriQMisEmpowered'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 825,
+            ['lineWidth'] = 60,
+            ['missileSpeed'] = 3400,
+            ['missileWidth'] = 40
+        },
+        ['ZeriQMisEmpoweredParent'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 825,
+            ['castRangeDisplayOverride'] = 1175,
+            ['lineWidth'] = 10,
+            ['missileWidth'] = 10
+        },
+        ['ZeriQMisEmpoweredPierce'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 825,
+            ['lineWidth'] = 60,
+            ['missileSpeed'] = 3400,
+            ['missileWidth'] = 40
+        },
+        ['ZeriQMisEmpoweredPierceParent'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 825,
+            ['castRangeDisplayOverride'] = 1175,
+            ['lineWidth'] = 10,
+            ['missileWidth'] = 10
+        },
+        ['ZeriQMisParent'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 825,
+            ['castRangeDisplayOverride'] = 1175,
+            ['lineWidth'] = 10,
+            ['missileWidth'] = 10
+        },
+        ['ZeriQMisPierce'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 825,
+            ['lineWidth'] = 60,
+            ['missileSpeed'] = 2600,
+            ['missileWidth'] = 40
+        },
+        ['ZeriQMisPierceParent'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 825,
+            ['castRangeDisplayOverride'] = 1175,
+            ['lineWidth'] = 10,
+            ['missileWidth'] = 10
+        },
+        ['ZeriR'] = {
+            ['castRadius'] = 800,
+            ['castRange'] = 25000,
+            ['castRangeDisplayOverride'] = 800,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 779.90002441406
+        },
+        ['ZeriW'] = {
+            ['castRadius'] = 25000,
+            ['castRange'] = 1200,
+            ['castRangeDisplayOverride'] = 1150,
+            ['castTime'] = 0.60000002384186,
+            ['lineWidth'] = 40,
+            ['missileSpeed'] = 2200,
+            ['missileWidth'] = 40
+        }
+    },
     ['Ziggs'] = {
         ['NightmareBotZiggsEMineMover'] = {
             ['castRadius'] = 235,
@@ -15007,20 +14974,11 @@ return {
             ['castRange'] = 1400,
             ['missileSpeed'] = 1100
         },
-        ['ZileanQ_URF'] = {
-            ['castRadius'] = 250,
-            ['castRange'] = 900,
-            ['castTime'] = 0.25
-        },
         ['ZileanStunAnim'] = {
             ['castRadius'] = 210,
             ['castRange'] = 550
         },
         ['ZileanW'] = {
-            ['castRadius'] = 300,
-            ['castRange'] = 600
-        },
-        ['ZileanW_URF'] = {
             ['castRadius'] = 300,
             ['castRange'] = 600
         }
