@@ -1391,6 +1391,69 @@ return {
             ['castTime'] = 0.25
         }
     },
+    ['Belveth'] = {
+        ['BelvethBasicAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 100,
+            ['missileSpeed'] = 467
+        },
+        ['BelvethBasicAttack2'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 100,
+            ['missileSpeed'] = 467
+        },
+        ['BelvethCritAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 100,
+            ['missileSpeed'] = 467
+        },
+        ['BelvethCritAttack2'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 100,
+            ['missileSpeed'] = 467
+        },
+        ['BelvethE'] = {
+            ['castRange'] = 500
+        },
+        ['BelvethEMissile'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 25000,
+            ['lineWidth'] = 120
+        },
+        ['BelvethPassiveMissile1'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 25000,
+            ['lineWidth'] = 120
+        },
+        ['BelvethPassiveMissile2'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 25000,
+            ['lineWidth'] = 120
+        },
+        ['BelvethPassiveMissile3'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 25000,
+            ['lineWidth'] = 120
+        },
+        ['BelvethPassiveMissile4'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 25000,
+            ['lineWidth'] = 120
+        },
+        ['BelvethQ'] = {
+            ['castRange'] = 450
+        },
+        ['BelvethR'] = {
+            ['castRange'] = 275,
+            ['castTime'] = 1
+        },
+        ['BelvethW'] = {
+            ['castRange'] = 715,
+            ['castTime'] = 0.5,
+            ['missileSpeed'] = 300000,
+            ['missileWidth'] = 100
+        }
+    },
     ['Blitzcrank'] = {
         ['BlitzcrankBasicAttack'] = {
             ['castRadius'] = 100,
