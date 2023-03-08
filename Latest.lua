@@ -14560,19 +14560,22 @@ return {
             ['castRange'] = 1800
         },
         ['YuumiQ'] = {
-            ['castRange'] = 1150,
+            ['castRange'] = 25000,
             ['lineWidth'] = 65,
             ['missileSpeed'] = 100
         },
+        ['YuumiQAttackSpeedVisualMissile'] = {
+            ['castRange'] = 25000
+        },
         ['YuumiQCast'] = {
             ['acceleration'] = 30,
-            ['castRange'] = 1150,
+            ['castRange'] = 25000,
             ['castRangeDisplayOverride'] = 1250,
             ['initialSpeed'] = 100,
-            ['lineWidth'] = 65,
+            ['lineWidth'] = 60,
             ['maxSpeed'] = 1200,
             ['minSpeed'] = 50,
-            ['missileWidth'] = 65
+            ['missileWidth'] = 60
         },
         ['YuumiQRelease'] = {
             ['castRange'] = 25000
