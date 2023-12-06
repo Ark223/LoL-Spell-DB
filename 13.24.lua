@@ -3870,6 +3870,116 @@ return {
             ['missileSpeed'] = 902
         }
     },
+    ['Hwei'] = {
+        ['HweiBasicAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 600,
+            ['missileSpeed'] = 2800
+        },
+        ['HweiBasicAttack2'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 600,
+            ['missileSpeed'] = 2800
+        },
+        ['HweiCritAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 600,
+            ['missileSpeed'] = 2800
+        },
+        ['HweiE'] = {
+            ['castTime'] = 0.25
+        },
+        ['HweiEE'] = {
+            ['castRadius'] = 400,
+            ['castRange'] = 800,
+            ['castTime'] = 0.34999999403954
+        },
+        ['HweiEQ'] = {
+            ['castRange'] = 1100,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1300,
+            ['missileWidth'] = 70
+        },
+        ['HweiEW'] = {
+            ['castRadius'] = 350,
+            ['castRange'] = 900,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1700
+        },
+        ['HweiEWTriggerMissile'] = {
+            ['acceleration'] = 2100,
+            ['castRange'] = 500,
+            ['initialSpeed'] = 1300,
+            ['maxSpeed'] = 2100,
+            ['minSpeed'] = 1300,
+            ['missileWidth'] = 30
+        },
+        ['HweiQ'] = {
+            ['castTime'] = 0.25
+        },
+        ['HweiQE'] = {
+            ['castRange'] = 1200,
+            ['castTime'] = 0.34999999403954,
+            ['missileSpeed'] = 800,
+            ['missileWidth'] = 90
+        },
+        ['HweiQETell'] = {
+            ['castRange'] = 1100,
+            ['castTime'] = 0.34999999403954,
+            ['missileSpeed'] = 1500,
+            ['missileWidth'] = 90
+        },
+        ['HweiQQ'] = {
+            ['castRadius'] = 100,
+            ['castRadiusSecondary'] = 200,
+            ['castRange'] = 800,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 2000,
+            ['missileWidth'] = 70
+        },
+        ['HweiQW'] = {
+            ['castRadiusSecondary'] = 225,
+            ['castRange'] = 1900,
+            ['castTime'] = 0.5
+        },
+        ['HweiR'] = {
+            ['castRadius'] = 150,
+            ['castRadiusSecondary'] = 400,
+            ['castRange'] = 1300,
+            ['castRangeDisplayOverride'] = 1300,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400,
+            ['missileWidth'] = 80
+        },
+        ['HweiSignature'] = {
+            ['castRadius'] = 225,
+            ['castRadiusSecondary'] = 225,
+            ['castRange'] = 25000
+        },
+        ['HweiW'] = {
+            ['castTime'] = 0.25
+        },
+        ['HweiWE'] = {
+            ['castRange'] = 500,
+            ['castTime'] = 0.25
+        },
+        ['HweiWEFoxfireMis'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000
+        },
+        ['HweiWQ'] = {
+            ['castRange'] = 1200,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1700,
+            ['missileWidth'] = 145
+        },
+        ['HweiWW'] = {
+            ['castRadius'] = 350,
+            ['castRange'] = 650,
+            ['castTime'] = 0.30000001192093,
+            ['missileSpeed'] = 0.5
+        }
+    },
     ['Illaoi'] = {
         ['IllaoiBasicAttack'] = {
             ['castRadius'] = 100,
