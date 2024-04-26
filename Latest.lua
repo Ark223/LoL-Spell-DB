@@ -3629,7 +3629,7 @@ return {
             ['castRange'] = 125
         },
         ['HecarimRapidSlash'] = {
-            ['castRadius'] = 800,
+            ['castRadius'] = 375,
             ['castRange'] = 375,
             ['castRangeDisplayOverride'] = 350,
             ['missileSpeed'] = 1450

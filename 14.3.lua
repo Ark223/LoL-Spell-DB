@@ -603,17 +603,17 @@ return {
         ['AnnieBasicAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 622.70001220703,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['AnnieBasicAttack2'] = {
             ['castRadius'] = 100,
             ['castRange'] = 622.70001220703,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['AnnieCritAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 622.70001220703,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['AnnieE'] = {
             ['castRange'] = 800
@@ -1932,15 +1932,15 @@ return {
     ['Cassiopeia'] = {
         ['CassiopeiaBasicAttack'] = {
             ['castRange'] = 650,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['CassiopeiaBasicAttack2'] = {
             ['castRange'] = 650,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['CassiopeiaCritAttack'] = {
             ['castRange'] = 650,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['CassiopeiaE'] = {
             ['castRadius'] = 710,
@@ -3629,7 +3629,7 @@ return {
             ['castRange'] = 125
         },
         ['HecarimRapidSlash'] = {
-            ['castRadius'] = 800,
+            ['castRadius'] = 375,
             ['castRange'] = 375,
             ['castRangeDisplayOverride'] = 350,
             ['missileSpeed'] = 1450
@@ -3868,6 +3868,116 @@ return {
             ['castTime'] = 0.25,
             ['lineWidth'] = 200,
             ['missileSpeed'] = 902
+        }
+    },
+    ['Hwei'] = {
+        ['HweiBasicAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 600,
+            ['missileSpeed'] = 2800
+        },
+        ['HweiBasicAttack2'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 600,
+            ['missileSpeed'] = 2800
+        },
+        ['HweiCritAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 600,
+            ['missileSpeed'] = 2800
+        },
+        ['HweiE'] = {
+            ['castTime'] = 0.25
+        },
+        ['HweiEE'] = {
+            ['castRadius'] = 400,
+            ['castRange'] = 800,
+            ['castTime'] = 0.34999999403954
+        },
+        ['HweiEQ'] = {
+            ['castRange'] = 1100,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1300,
+            ['missileWidth'] = 70
+        },
+        ['HweiEW'] = {
+            ['castRadius'] = 350,
+            ['castRange'] = 900,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1700
+        },
+        ['HweiEWTriggerMissile'] = {
+            ['acceleration'] = 2100,
+            ['castRange'] = 600,
+            ['initialSpeed'] = 1300,
+            ['maxSpeed'] = 2100,
+            ['minSpeed'] = 1300,
+            ['missileWidth'] = 30
+        },
+        ['HweiQ'] = {
+            ['castTime'] = 0.25
+        },
+        ['HweiQE'] = {
+            ['castRange'] = 1200,
+            ['castTime'] = 0.34999999403954,
+            ['missileSpeed'] = 800,
+            ['missileWidth'] = 90
+        },
+        ['HweiQETell'] = {
+            ['castRange'] = 1100,
+            ['castTime'] = 0.34999999403954,
+            ['missileSpeed'] = 1500,
+            ['missileWidth'] = 90
+        },
+        ['HweiQQ'] = {
+            ['castRadius'] = 100,
+            ['castRadiusSecondary'] = 200,
+            ['castRange'] = 800,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 2000,
+            ['missileWidth'] = 70
+        },
+        ['HweiQW'] = {
+            ['castRadiusSecondary'] = 225,
+            ['castRange'] = 1900,
+            ['castTime'] = 0.5
+        },
+        ['HweiR'] = {
+            ['castRadius'] = 150,
+            ['castRadiusSecondary'] = 400,
+            ['castRange'] = 1300,
+            ['castRangeDisplayOverride'] = 1300,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1400,
+            ['missileWidth'] = 90
+        },
+        ['HweiSignature'] = {
+            ['castRadius'] = 225,
+            ['castRadiusSecondary'] = 225,
+            ['castRange'] = 25000
+        },
+        ['HweiW'] = {
+            ['castTime'] = 0.25
+        },
+        ['HweiWE'] = {
+            ['castRange'] = 500,
+            ['castTime'] = 0.25
+        },
+        ['HweiWEFoxfireMis'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 25000
+        },
+        ['HweiWQ'] = {
+            ['castRange'] = 1200,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1700,
+            ['missileWidth'] = 145
+        },
+        ['HweiWW'] = {
+            ['castRadius'] = 350,
+            ['castRange'] = 650,
+            ['castTime'] = 0.30000001192093,
+            ['missileSpeed'] = 0.5
         }
     },
     ['Illaoi'] = {
@@ -4124,7 +4234,7 @@ return {
         ['HowlingGale'] = {
             ['castRadius'] = 100,
             ['castRange'] = 25000,
-            ['castRangeDisplayOverride'] = 1700,
+            ['castRangeDisplayOverride'] = 1075,
             ['lineWidth'] = 120
         },
         ['HowlingGaleSpell'] = {
@@ -4164,8 +4274,8 @@ return {
         },
         ['SowTheWind'] = {
             ['castRadius'] = 210,
-            ['castRange'] = 650,
-            ['castRangeDisplayOverride'] = 650,
+            ['castRange'] = 550,
+            ['castRangeDisplayOverride'] = -1,
             ['castTime'] = 0.24500000476837,
             ['lineWidth'] = 60,
             ['missileSpeed'] = 1600,
@@ -4228,49 +4338,47 @@ return {
             ['castRange'] = 100,
             ['missileSpeed'] = 400
         },
-        ['JaxBasicAttack3'] = {
+        ['JaxBasicAttackTower'] = {
             ['castRadius'] = 100,
             ['castRange'] = 100,
             ['missileSpeed'] = 400
         },
-        ['JaxCounterStrike'] = {
-            ['castRadius'] = 375,
-            ['castRangeDisplayOverride'] = 300,
-            ['missileSpeed'] = 1450
-        },
-        ['JaxCounterStrikeAttack'] = {
-            ['castRadius'] = 300
+        ['JaxBasicAttackTower2'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 100,
+            ['missileSpeed'] = 400
         },
         ['JaxCritAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 100,
             ['missileSpeed'] = 400
         },
-        ['JaxEmpowerAttack'] = {
-            ['castRadius'] = 100,
-            ['castRange'] = 150
+        ['JaxE'] = {
+            ['castRadius'] = 375,
+            ['castRangeDisplayOverride'] = 300,
+            ['missileSpeed'] = 1450
         },
-        ['JaxEmpowerTwo'] = {
-            ['castRadius'] = 210,
-            ['castRange'] = 300
-        },
-        ['JaxLeapStrike'] = {
+        ['JaxQ'] = {
             ['castRadius'] = 210,
             ['castRange'] = 700
         },
-        ['JaxLeapStrikeAttack'] = {
-            ['castRadius'] = 100,
-            ['castRange'] = 800
-        },
-        ['JaxRApexForm'] = {
+        ['JaxR'] = {
             ['castRadius'] = 250,
             ['castRangeDisplayOverride'] = 260,
             ['castTime'] = 0.25,
             ['missileSpeed'] = 1500
         },
-        ['JaxRelentlessAttack'] = {
+        ['JaxRPassiveAttack'] = {
             ['castRadius'] = 210,
             ['castRange'] = 900
+        },
+        ['JaxW'] = {
+            ['castRadius'] = 210,
+            ['castRange'] = 300
+        },
+        ['JaxWAttack'] = {
+            ['castRadius'] = 100,
+            ['castRange'] = 25000
         }
     },
     ['Jayce'] = {
@@ -5288,19 +5396,19 @@ return {
     ['Karthus'] = {
         ['KarthusBasicAttack'] = {
             ['castRange'] = 800,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['KarthusBasicAttack2'] = {
             ['castRange'] = 800,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['KarthusCritAttack'] = {
             ['castRange'] = 800,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['KarthusCritAttack2'] = {
             ['castRange'] = 800,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['KarthusDefile'] = {
             ['castRadius'] = 1,
@@ -6925,7 +7033,7 @@ return {
             ['castRangeDisplayOverride'] = 1175,
             ['lineWidth'] = 50,
             ['missileSpeed'] = 1200,
-            ['missileWidth'] = 50
+            ['missileWidth'] = 70
         },
         ['LuxLightBindingMis'] = {
             ['castRadius'] = 210,
@@ -8317,25 +8425,25 @@ return {
             ['castRadius'] = 100,
             ['castRange'] = 100,
             ['castTime'] = 0.26660001277924,
-            ['missileSpeed'] = 1450
+            ['missileSpeed'] = 1500
         },
         ['OriannaBasicAttack2'] = {
             ['castRadius'] = 100,
             ['castRange'] = 100,
             ['castTime'] = 0.26660001277924,
-            ['missileSpeed'] = 1450
+            ['missileSpeed'] = 1500
         },
         ['OriannaBasicAttack3'] = {
             ['castRadius'] = 100,
             ['castRange'] = 100,
             ['castTime'] = 0.26660001277924,
-            ['missileSpeed'] = 1450
+            ['missileSpeed'] = 1500
         },
         ['OriannaCritAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 100,
             ['castTime'] = 0.26660001277924,
-            ['missileSpeed'] = 1450
+            ['missileSpeed'] = 1500
         }
     },
     ['Ornn'] = {
@@ -10694,6 +10802,84 @@ return {
             ['castTime'] = 0.25
         }
     },
+    ['Smolder'] = {
+        ['SmolderBasicAttack'] = {
+            ['castRange'] = 2000,
+            ['missileSpeed'] = 1600
+        },
+        ['SmolderBasicAttack2'] = {
+            ['castRange'] = 2000,
+            ['missileSpeed'] = 1600
+        },
+        ['SmolderBasicAttack3'] = {
+            ['castRange'] = 2000,
+            ['missileSpeed'] = 1600
+        },
+        ['SmolderCritAttack'] = {
+            ['castRange'] = 2000,
+            ['missileSpeed'] = 1600
+        },
+        ['SmolderE'] = {
+            ['castRadius'] = 175,
+            ['castRange'] = 700,
+            ['castRangeDisplayOverride'] = 700,
+            ['lineWidth'] = 120,
+            ['missileSpeed'] = 1200
+        },
+        ['SmolderEAttack'] = {
+            ['castRange'] = 1600,
+            ['missileSpeed'] = 2000
+        },
+        ['SmolderQ'] = {
+            ['castConeAngle'] = 60,
+            ['castRadius'] = 550,
+            ['castRange'] = 550,
+            ['castTime'] = 0.25,
+            ['missileSpeed'] = 1800
+        },
+        ['SmolderQ2BlowbackMissileA'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 2500,
+            ['missileWidth'] = 25
+        },
+        ['SmolderQ2BlowbackMissileB'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 2500,
+            ['missileWidth'] = 25
+        },
+        ['SmolderQ2BlowbackMissileC'] = {
+            ['castRadius'] = 710,
+            ['castRange'] = 2500,
+            ['missileWidth'] = 25
+        },
+        ['SmolderR'] = {
+            ['castRadius'] = 240,
+            ['castRange'] = 4200,
+            ['castTime'] = 0.75
+        },
+        ['SmolderRMomMissile'] = {
+            ['castRange'] = 4250,
+            ['missileSpeed'] = 1700,
+            ['missileWidth'] = 300
+        },
+        ['SmolderRMomMissileSweetspot'] = {
+            ['castRange'] = 4250,
+            ['missileSpeed'] = 1700,
+            ['missileWidth'] = 125
+        },
+        ['SmolderW'] = {
+            ['acceleration'] = -1600,
+            ['castRadius'] = 210,
+            ['castRange'] = 1500,
+            ['castRangeDisplayOverride'] = 1500,
+            ['castTime'] = 0.34999999403954,
+            ['initialSpeed'] = 2000,
+            ['lineWidth'] = 75,
+            ['maxSpeed'] = 2000,
+            ['minSpeed'] = 400,
+            ['missileWidth'] = 125
+        }
+    },
     ['Sona'] = {
         ['SonaBasicAttack'] = {
             ['castRadius'] = 100,
@@ -11592,17 +11778,17 @@ return {
         ['TeemoBasicAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 200,
-            ['missileSpeed'] = 1300
+            ['missileSpeed'] = 1500
         },
         ['TeemoBasicAttack2'] = {
             ['castRadius'] = 100,
             ['castRange'] = 200,
-            ['missileSpeed'] = 1300
+            ['missileSpeed'] = 1500
         },
         ['TeemoCritAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 200,
-            ['missileSpeed'] = 1300
+            ['missileSpeed'] = 1500
         },
         ['TeemoRCast'] = {
             ['castRadius'] = 135,
@@ -12060,7 +12246,7 @@ return {
             ['castRadius'] = 210,
             ['castRange'] = 5000,
             ['lineWidth'] = 60,
-            ['missileSpeed'] = 4000,
+            ['missileSpeed'] = 5000,
             ['missileWidth'] = 60
         },
         ['TwitchVenomCask'] = {
@@ -12394,6 +12580,7 @@ return {
         ['VarusQ'] = {
             ['castRadius'] = 500,
             ['castRange'] = 925,
+            ['lineWidth'] = 75,
             ['missileSpeed'] = 1500
         },
         ['VarusQLaunch'] = {
@@ -12578,17 +12765,17 @@ return {
         ['VeigarBasicAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 622.70001220703,
-            ['missileSpeed'] = 1100
+            ['missileSpeed'] = 1500
         },
         ['VeigarBasicAttack2'] = {
             ['castRadius'] = 100,
             ['castRange'] = 622.70001220703,
-            ['missileSpeed'] = 1100
+            ['missileSpeed'] = 1500
         },
         ['VeigarCritAttack'] = {
             ['castRadius'] = 100,
             ['castRange'] = 622.70001220703,
-            ['missileSpeed'] = 1100
+            ['missileSpeed'] = 1500
         },
         ['VeigarDarkMatter'] = {
             ['castRadius'] = 225,
@@ -12639,7 +12826,7 @@ return {
             ['castTime'] = 0.25
         },
         ['VelkozEMissile'] = {
-            ['castRange'] = 1100,
+            ['castRange'] = 25000,
             ['lineWidth'] = 120,
             ['missileWidth'] = 120
         },
@@ -14574,15 +14761,15 @@ return {
         },
         ['ZileanBasicAttack'] = {
             ['castRange'] = 550,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['ZileanBasicAttack2'] = {
             ['castRange'] = 550,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['ZileanCritAttack'] = {
             ['castRange'] = 550,
-            ['missileSpeed'] = 1200
+            ['missileSpeed'] = 1500
         },
         ['ZileanPRecourseVFX'] = {
             ['acceleration'] = 3000,
